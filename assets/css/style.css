@@ -132,21 +132,6 @@ input[type="submit"]:hover {
     text-decoration: none;
 }
 
-/*
-.projects h4 {
-    font-size: 20px;
-    background-color: #4aaaa5;
-    color: #fff;
-    position: relative;
-    bottom: 90px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    z-index: 1;
-    margin-bottom: -60px;
-}
-*/
-
-/* this is added */
 .projects h4 {
     font-size: 20px;
     background-color: #4aaaa5;
@@ -164,7 +149,6 @@ input[type="submit"]:hover {
     display: inline-block;
     text-align: center;
     margin: 30px 125px 30px 125px;
-    /* this is added */
     position: relative;
 }
 
