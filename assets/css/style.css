@@ -146,10 +146,12 @@ input[type="submit"]:hover {
 }
 
 .tile {
-    display: inline-block;
-    text-align: center;
-    margin: 30px 125px 30px 125px;
-    position: relative;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin: 5% 13%;
+  max-width: 100%;
+  height: auto;
 }
 
 footer {
@@ -173,7 +175,12 @@ footer {
   }
 
   .tile {
-      margin: 30px 62px;
+    margin: 5% 8.75%;
+  }
+
+  .tile img {
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -183,7 +190,7 @@ footer {
   }
 
   .tile {
-    margin: 30px 23px;
+    margin: 5% 3.9%;
   }
 }
 
@@ -196,7 +203,28 @@ footer {
     margin-top: 50px;
   }
 
+  .about-main img {
+    width: 100%;
+    height: auto;
+  }
+
   .tile {
-    margin: 30px 110px;
+    margin: 5% 25%;
+  }
+
+  .projects h4 {
+    bottom: 10px;
+  }
+
+  nav h1 {
+    width: 25vw;
+  }
+
+  nav ul {
+    width: 45%;
+  }
+
+  nav ul li {
+    font-size: 20px;
   }
 }
